@@ -605,8 +605,8 @@ video {
 
 @media (min-width: 640px) {
   .main {
-    margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     width: 80%;
     border-radius: 0.5rem;
     padding: 1.25rem;

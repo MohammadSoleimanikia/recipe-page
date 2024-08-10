@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 .main {
-  @apply shadow-3xl w-full sm:w-[80%] max-w-[850px] bg-white mx-auto sm:mt-6 p-2 sm:p-5 sm:rounded-lg font-times sm:mb-2;
+  @apply shadow-3xl w-full sm:w-[80%] max-w-[850px] bg-white mx-auto p-2 sm:p-5 sm:rounded-lg font-times sm:my-16;
 }
 .image {
   @apply rounded-lg;
