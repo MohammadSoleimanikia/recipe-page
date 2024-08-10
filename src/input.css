@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.main {
+  @apply shadow-3xl w-[95%]   sm:w-[80%] max-w-[850px] bg-white mx-auto mt-6 p-2 sm:p-5 rounded-lg font-times mb-2;
+}
+.image {
+  @apply rounded-lg;
+}
+.title {
+  @apply text-3xl sm:text-4xl font-semibold my-5;
+}
+.description {
+  @apply text-xs sm:text-sm my-3;
+}
+.prepCard {
+  @apply bg-[#fff5fa] rounded-lg p-4;
+}
+.prepTitle {
+  @apply text-2xl sm:text-xl font-semibold mt-2 mb-5 pl-2 text-[#7b284f];
+}
+.prepItems {
+  @apply text-base font-semibold;
+}
+.prepItems span {
+  @apply text-[#7b284f] font-light text-sm;
+}
+.ingredCard {
+  @apply  mb-10 border-b-[1px] border-[#c7c7c7] m-4 pb-3;
+}
+.ingredTitle {
+  @apply text-2xl font-semibold pl-2 text-[#aa7909];
+}
+.ingredItems {
+  @apply text-xs sm:text-sm p-1 font-extralight;
+}
+.instrCard{
+    @apply   m-4 mb-6 pb-3 border-b-[1px] border-[#c7c7c7]
+}
+.instrTitle{
+    @apply text-2xl sm:text-3xl font-semibold mt-2 mb-5 pl-2 text-[#854632];
+}
+.instrItem{
+    @apply font-semibold
+}
+.instrItemSub{
+    @apply font-light text-xs sm:text-sm
+}
+.NutritionDesc{
+    @apply text-xs;
+}
+.nutritionTable{
+    @apply w-full border-collapse mt-4 ;
+}
+.tableValue{
+    @apply text-[#854632] font-semibold
+}
