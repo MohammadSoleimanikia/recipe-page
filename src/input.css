@@ -29,7 +29,7 @@
   @apply  mb-10 border-b-[1px] border-[#c7c7c7] m-4 pb-3;
 }
 .ingredTitle {
-  @apply text-2xl font-semibold pl-2 text-[#aa7909];
+  @apply text-2xl font-semibold pl-2 text-[#7b284f];
 }
 .ingredItems {
   @apply text-xs sm:text-sm p-1 font-extralight;
