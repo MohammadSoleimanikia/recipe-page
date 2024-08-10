@@ -592,11 +592,8 @@ video {
 .main {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
-  width: 95%;
+  width: 100%;
   max-width: 850px;
-  border-radius: 0.5rem;
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   padding: 0.5rem;
@@ -608,7 +605,10 @@ video {
 
 @media (min-width: 640px) {
   .main {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
     width: 80%;
+    border-radius: 0.5rem;
     padding: 1.25rem;
   }
 }
